@@ -1,0 +1,25 @@
+mkdir stashex
+cs stashex
+git init
+echo"statsh example">file.txt
+git add.
+git stash
+o/p is you do not have the initial commit yet
+git commit-m "Initial commit"
+git stash
+o/p is no local changes to save 
+git checkout branch_a
+git branch branch_a
+git checkout branch_a
+echo"some contents to stash">file.txt
+git add.
+git stash
+o/p is saved working directory and index state WIP on branh-a:3616a32 Initial commit
+git checkout branch_B_name
+git branch branch_B_name
+git checkout branch_B_name
+echo"some text to add">bfile.txt
+git add
+git commit_m"Fix the bug in branch B"
+git checkout branch_a
+git stash pop
