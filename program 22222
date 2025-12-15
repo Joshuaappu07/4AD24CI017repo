@@ -1,0 +1,30 @@
+mkdir git-conflict-demo2
+cd git-conflict-demo2
+git init
+gedit file.txt
+echo"line1">file.txt
+gedit file.txt
+echo"line2">file.txt
+gedit file.txt
+git add file.txt
+git status
+git commit -m"Initial commit"
+git status
+git branch
+git checkout-b branch-a
+git branch
+echo"Change from branch A">> file.txt
+git commit-am"Edit from branch A"
+gedit file.txt
+git checkout master
+git branch
+git checkout-b branch-b
+git branch
+echo"Change from branch B">> file.txt
+git commit-am"Edit from branch B"
+git checkout branch-a
+git merge branch-b
+gedit file.txt
+{after >>>>head remove all and type (Changes from both the branches)}
+git add file.txt
+git commit-m"Resolved conflict between branch A and B"
