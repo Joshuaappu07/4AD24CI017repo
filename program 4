@@ -1,0 +1,16 @@
+mkdir reponew
+cd repone
+git init
+ls
+git done"{repository}"
+ls
+cd repotest
+ls
+echo'first push'>f1.txt
+ls
+git add
+git commit-m"Initial commit"
+git status
+git remote set-url origin "{link}"
+git push origin main
+{token create, settings->developer settings->personal access token->fenetrate new token,note,click first 5,then copy link}
