@@ -1,0 +1,17 @@
+git   --version
+mkdir 4AD24CI017
+cd 4AD24CI017
+git init
+git status
+gedit f1.txt
+git status
+gedit f2.txt
+git status
+git add f1.txt
+git status
+gedit f3.txt
+git status
+git add
+git status
+git commit -m "new commit"
+git log
