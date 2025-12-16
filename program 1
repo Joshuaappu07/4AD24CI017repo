@@ -1,9 +1,9 @@
-git --version:- it is used to verify which type of git can be used or using
-git init:- it is used ti initalized a empty repositort
-git status:- it is used to show current status of git 
-git add.(file name):- used to move files to staging area
-git commit-m "commit message":- it will save the snapshot of the project
-git log:- it is used to list all the commits nearby the user and detailed information about commit
+git --version:- it is used to verify which type of git can be used or using (It displays the currently installed version of Git on your system)
+git init:- it is used ti initalized a empty repositort (Initializes a new Git repository in the current directory)
+git status:- it is used to show current status of git (Shows the current state of your working directory and staging area)
+git add.(file name):- used to move files to staging area (Moves changes from your working directory into the staging area (also called the index))
+git commit-m "commit message":- it will save the snapshot of the project (Records the changes you’ve staged (using git add) into the repository’s history)
+git log:- it is used to list all the commits nearby the user and detailed information about commit (Displays a list of commits made in the repository)
 
 git   --version
 mkdir 4AD24CI017
