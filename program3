@@ -1,7 +1,7 @@
-git branch:- seperate line of developement
-git checkout branch name:- switch from the current branch to another existing branch
-git stash save:- temporarily store or hide your uncommitted changes
-git stash pop:- restore the recent stashed change
+git branch:- seperate line of developement (Lists, creates, or deletes branches in your repository)
+git checkout branch name:- switch from the current branch to another existing branch (Moves your working directory to the specified branch)
+git stash save:- temporarily store or hide your uncommitted changes (Saves your modified and staged files into a special stash area)
+git stash pop:- restore the recent stashed change (Restores the most recently stashed changes back into your working directory.program)
 
 mkdir stashex
 cs stashex
