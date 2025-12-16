@@ -1,7 +1,7 @@
-git clone:- copy an existing remote repository to your local machine
-git pull:- to update your local repository with latest change from remote repository
-git push:- upload your local commits to remote repository
-git rebase:- moving or replaying your commits onto a new base commits
+git clone:- copy an existing remote repository to your local machine (Creates a local copy of a remote repository)
+git pull:- to update your local repository with latest change from remote repository (Synchronizes your local branch with the remote branch)
+git push:- upload your local commits to remote repository (Sends your local branch commits to the remote branch)
+git rebase:- moving or replaying your commits onto a new base commits (Moves or “rebases” your branch’s commits on top of another branch)
 
 mkdir newrebaserepo19
 cd newrebaserepo19
@@ -9,7 +9,7 @@ git init
 git clone "{repository}"
 ls
 cd rebaserepo(repository name)
-git banch 
+git branch 
 git log
 git checkout-b feature
 git log
