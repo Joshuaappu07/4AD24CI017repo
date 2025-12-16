@@ -1,3 +1,7 @@
+git clone:- copy an existing remote repository to your local machine
+git pull:- to update your local repository with latest change from remote repository
+git push:- uplod your local commits to remote repository
+
 mkdir reponew
 cd repone
 git init
