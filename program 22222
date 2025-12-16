@@ -1,6 +1,6 @@
-git branch:- seperate line of developement
-git checkout branch name:- switch from the current branch to another existing branch
-git merge branch name:- merges the branch changes into the current branch
+git branch:- seprate line of development (Lists, creates, or deletes branches in your repository)
+git checkout branch name:- switch from the current branch to another existing branch (Moves your working directory to the specified branch)
+git merge branch name:- merges the branch changes into the current branch (Integrates the history of the specified branch into the branch you’re currently on)
 
 mkdir git-conflict-demo2
 cd git-conflict-demo2
