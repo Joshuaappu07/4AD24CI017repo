@@ -1,6 +1,6 @@
 git clone:- copy an existing remote repository to your local machine
 git pull:- to update your local repository with latest change from remote repository
-git push:- uplod your local commits to remote repository
+git push:- upload your local commits to remote repository
 git rebase:- moving or replaying your commits onto a new base commits
 
 mkdir newrebaserepo19
