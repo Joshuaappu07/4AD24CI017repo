@@ -1,3 +1,7 @@
+git branch:- seperate line of developement
+git checkout branch name:- switch from the current branch to another existing branch
+git merge branch name:- merges the branch changes into the current branch
+
 mkdir git-conflict-demo2
 cd git-conflict-demo2
 git init
