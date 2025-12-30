@@ -1,0 +1,11 @@
+git tag v1.0
+
+mkdir
+cd
+gedit
+git add .
+git commit-m"initial commit"
+git tag v1.0
+git tag
+git log
+o/p->(Head->b1, tag:v1.0)
