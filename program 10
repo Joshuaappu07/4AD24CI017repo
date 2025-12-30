@@ -3,7 +3,7 @@ git--author=<<Name>--since=<Date>/--after=<Date>
 mkdir repo2
 cd repo2
 git init
-git clone "{repository}"
+git clone "{repository code}"
 ls
 cd"{repository name}"
 git branch
@@ -30,5 +30,5 @@ git log
 git push origin main
 git remote set-url origin "https://{token@repository}"
 git push origin main
-git --author="Name"==since="2023-01-01"--unbit="2023-12-31"
+git --author="Name"--since="2023-01-01"--until="2023-12-31"
 
