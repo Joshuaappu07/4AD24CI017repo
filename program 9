@@ -1,0 +1,13 @@
+git log :- indicates all the history of contents in directory
+git show:- indicates the recent contents in directory
+{git show commit id:-indicates the information of the commit given}
+
+mkdir
+cd
+gedit f1.txt
+gedit f2.txt
+git add .
+git commit-m"file changed by name"
+git log 
+git show
+git show commit id
