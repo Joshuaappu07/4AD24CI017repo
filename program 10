@@ -18,11 +18,9 @@ echo "f3 added">f3.txt
 git add .
 git commit-m"f3 added"
 echo "f4 added">f4.txt
-git add
+git add .
 git commit-m"f4 added"
 echo"f4 added">f5.txt
-git add .
-git commit-m"f5 added"
 git add .
 git commit-m"f5 added"
 git checkot main
