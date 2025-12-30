@@ -16,5 +16,5 @@ git log
 git checkout feature
 git cherry-pick commit of git log
 git log
-git remote set-url origin 
+git remote set-url origin "https://{token@repository}"
 git push origin feature
