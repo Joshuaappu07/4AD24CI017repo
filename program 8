@@ -1,0 +1,20 @@
+git cherry-pick commit-id
+
+mkdir repoloc1
+cd repoloc1
+git init
+git clone "{repository code}"
+ls
+cd repo1
+ls
+git branch
+git checkout main
+echo"first commit to cherry pick">f1.txt
+git add .
+git commit-m "first upload"
+git log
+git checkout feature
+git cherry-pick commit of git log
+git log
+git remote set-url origin 
+git push origin feature
