@@ -8,6 +8,8 @@ ls
 cd repo1
 ls
 git branch
+git checkout-b feature
+git log
 git checkout main
 echo"first commit to cherry pick">f1.txt
 git add .
