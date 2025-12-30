@@ -23,8 +23,6 @@ git commit-m"f4 added"
 echo"f4 added">f5.txt
 git add .
 git commit-m"f5 added"
-git add .
-git commit-m"f5 added"
 git checkot main
 git log
 git push origin main
