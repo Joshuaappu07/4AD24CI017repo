@@ -1,6 +1,6 @@
-git clone 
-git pull
-git push
+git clone:- copy an existing remote repository to your local machine (Creates a local copy of a remote repository)
+git pull:- to update your local repository with latest change from remote repository (Synchronizes your local branch with the remote branch)
+git push:- upload your local commits to remote repository (Sends your local branch commits to the remote branch)
 git merge
 
 mkdir pullexam
