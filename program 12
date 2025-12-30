@@ -1,0 +1,12 @@
+git revert commit-id:- need to delete the recent files created
+
+mkdir
+cd
+gedit f1.txt
+gedit f2.txt
+git add .
+git commit-m"final commit"
+git log
+git show
+git show commit id
+git revert commit id
