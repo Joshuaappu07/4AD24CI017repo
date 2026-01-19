@@ -1,0 +1,29 @@
+git --version:- it is used to verify which type of git can be used or using (It displays the currently installed version of Git on your system)
+git init: Initializes a new Git repository in the current directory.
+git clone <repository URL>: Creates a copy of a remote repository on your local machine.
+git add <file>: Moves changes from your working directory into the staging area
+git commit -m "message": Records the changes you’ve staged into the repository’s history.
+git status: Shows the current state of your working directory and staging area.
+git log: Displays a list of commits made in the repository including commit hashes, authors, dates, and commit messages.
+git diff: Shows the differences between the working directory and the last committed version.
+git branch: Lists all branches in the repository and highlights the currently checked- out branch.
+git branch <branchname>: Creates a new branch with the specified name.
+git checkout <branchname>: switch from the current branch to another existing branch.
+git merge <branchname>: Merges changes from the specified branch into the currently checked-out branch.
+git pull: Fetches changes from a remote repository and merges them into the current branch.
+git push: Pushes your local commits to a remote repository.
+git remote: Lists the remote repositories that your local repository is connected to.
+git fetch: Retrieves changes from a remote repository without merging them.
+git reset <file>: Unstages a file that was previously staged for commit.
+git reset --hard <commit>: Resets the branch to a specific commit, discarding all changes after that commit.
+git stash: Temporarily saves your changes to a "stash" so you can switch branches without committing or losing your work.
+git tag: Lists and manages tags (usually used for marking specific points in history, like releases).
+git blame <file>: Shows who made each change to a file and when.
+git rm <file>: Removes a file from both your working directory and the Git repository.
+git mv <oldfile> <newfile>: Renames a file and stages the change.
+git stash save:- Saves your modified and staged files into a special stash area
+git stash pop:- restore the recent stashed change 
+git rebase: Moves or “rebases” your branch’s commits on top of another branch
+git show:- indicates the recent contents in directory
+git show commit id:-indicates the information of the commit given
+git revert commit-id:- need to delete the recent files created
